@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+    
+
+    <style>
+        #header {
+            background: #282828;
+            color: #e6dfdf;
+            text-align: center;
+            padding: 16px;
+            font-size: 28px; 
+            font-weight: bold;
+        }
+        #header-links {
+            margin-top: 8px;
+            text-align: center;
+            color: #efefef;
+            font-size: 16px;
+            padding-bottom: 8px;
+        }
+
+        #main-content {
+            background: hsl(0, 20%, 93%);
+            padding: 20px;
+            min-height: 420px; 
+        }
+
+        #about {
+            background: #e7e5e5;
+            padding: 20px;
+            width: calc(100% - 20px); 
+            margin: 8px 10px 0 10px; 
+            border-radius: 5px;
+            text-align: left;
+            box-sizing: border-box;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+        }
+  
+        #footer {
+            background: #262525;
+            color: #f7f7f7;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        #about-title {
+            font-weight: bold;
+            margin-bottom: 10px;
+            display: block;
+            font-size: 20px;
+        }
+        #about-link {
+            color: #0e51ec;
+            font-weight: 500;
+            text-decoration: none;
+        }
+        #about-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        Welcome to My Webpage
+        <div id="header-links">
+            Home&nbsp;&nbsp;About&nbsp;&nbsp;Contact
+        </div>
+    </div>
+
+    <div id="main-content">
+        <div id="about">
+            <span id="about-title">About This Page</span>
+            <span>This is a simple webpage to demonstrate styling and linking.</span>
+            <br><br>
+            <a id="about-link" href="https://example.com" target="_blank">Visit Example.com</a>
+        </div>
+    </div>
+
+    <div id="footer">
+        &copy; 2024 My Webpage
+    </div>
+</body>
+</html>
